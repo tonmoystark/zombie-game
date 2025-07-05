@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: rgb(39, 26, 26);
+    cursor: url(./Assests/jd.png) 16 16, auto;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: url(./Assests/game\ bcg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    gap: 7px;
+}
+.extra{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container button{
+    background-color: lightgreen;
+    font-size: 2.5rem;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    cursor: url(./Assests/Green\ Neon\ Crosshair\ Animated--pointer--SweezyCursors..cur) 16 16, auto;
+}
+
+.vanish{
+    display: none;
+}
+
+.visible{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.score{
+    font-size: 2.7rem;
+    padding: 5px 7px;
+    background-color: lightgreen;
+    border-radius: 10px;
+    font-family: sans-serif;
+}
+.zombie {
+  transition: all 0.3s ease;
+}
+.container .visible p{
+    font-size: 2rem;
+    margin: 10px;
+    background-color: lightgreen;
+    padding: 5px 7px;
+    border-radius: 10px;
+}
