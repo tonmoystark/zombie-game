@@ -2,7 +2,7 @@
 
 A simple yet addictive browser-based zombie shooting game built with pure HTML, CSS, and JavaScript.
 
-![Game Screenshot](./Screenshot%20gameplay.webp)  
+![Game Screenshot](./Screenshot.webp)  
 *(Screenshot of the game in action)*
 
 ## 🎮 Features
